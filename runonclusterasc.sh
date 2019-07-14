@@ -4,7 +4,7 @@
 #SBATCH --output=log.txt
 #SBATCH --array=1-6
 #SBATCH --time=01:59:59
-#SBATCH --mem-per-cpu=1000
+#SBATCH --cpus-per-task=8
 #SBATCH --nodes=1-1
 #SBATCH --mem-per-cpu=500
 #SBATCH --mail-user=<your_mail>
